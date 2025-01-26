@@ -78,7 +78,7 @@
           const isEmergencyValid = emergency.trim() !== '';
 
           if (isCodeWordValid && isLatitudeValid && isLongitudeValid && isLabNameValid && isEmergencyValid) {
-            this.status = 'Unlocked!';
+            this.status = 'Message Sent! Please prepare for evacuation by gathering in the common area.';
           } else {
             this.status = 'Incorrect information. Please try again.';
           }
